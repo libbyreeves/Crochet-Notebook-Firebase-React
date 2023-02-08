@@ -5,8 +5,8 @@ import "./components/NavBar";
 import NavBar from "./components/NavBar";
 import NoteAdd from "./components/NoteAdd";
 import Notebook from "./components/Notebook";
-
 import "./App.css";
+
 
 const firebaseConfig = {
 
@@ -67,11 +67,10 @@ const App = () => {
 
   return (
     <div className="app">
+      
       <NavBar />
       <div className="note-section">
-        <NoteAdd />
-           
-     
+        <NoteAdd />      
         <Notebook notebook={noteBookData} />
       </div>
     </div>

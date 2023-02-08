@@ -55,7 +55,7 @@ const NoteAdd = () => {
                         type="text"
                         className="noteadd-header"
                         name="noteadd-header"
-                        placeholder="Note Title"
+                        placeholder="Project Title"
                         value={title}
                         onChange={(val) => handleTitleChange(val)}
                     />

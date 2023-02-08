@@ -1,7 +1,7 @@
 import React from "react";
 import firebase from "firebase/compat/app";
 import "firebase/compat/database";
-import "./Notebook.css";
+import "./Notebook.css"; 
 
 const Notebook = (props) => {
     const deleteNotebook = (id) => {
@@ -18,17 +18,17 @@ const Notebook = (props) => {
                                 <div className="notebookInfo-title">
                                     <h3>{note.title}</h3>
                                     <div className="remove" onClick={() => deleteNotebook(note.id)}>
-                                        ❌
+                                        ✖️
                                     </div>
                                 </div>
                                 <div className="notebookInfo-yarn">
-                                    <h4>{note.yarn}</h4>
+                                    <h4>Amount: {note.yarn}</h4>
                                 </div>
                                 <div className="notebookInfo-hook">
-                                    <h4>{note.hook}</h4>
+                                    <h4>Hook: {note.hook}</h4>
                                 </div>
                                 <div className="notebookInfo-weight">
-                                    <h4>{note.weight}</h4>
+                                    <h4>Yarn weight: {note.weight}</h4>
                                 </div>
                                 
                                 <div className="notebookInfo-description">

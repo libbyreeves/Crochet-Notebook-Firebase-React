@@ -3,11 +3,12 @@
     grid-template-columns: 1fr;
     grid-gap: 20px;
     padding: 20px;
+    background-color: #b3cde0;
 }
 
 .notebook .notebookInfo {
-    background: rgba(209, 97, 175, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(135, 31, 100, 0.37);
+    background: white;
+    box-shadow: #011f4b;
     backdrop-filter: blur(2.5px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -21,8 +22,7 @@
 }
 
 .notebook .notebookInfo .notebookInfo-title {
-    background: rgba(212, 134, 98, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(135, 31, 130, 0.37);
+    background: #011f4b;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(2.5px);

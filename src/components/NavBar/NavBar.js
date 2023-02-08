@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <>
             <header className="navBar">
-                <h2 className="title">Crochet Notebook</h2>
+                <h2 className="title">🧶Crochet Notebook🧶</h2>
             </header>
         </>
     );
