@@ -34,6 +34,9 @@
 .notebookInfo-title h3 {
     padding-left: 1rem;
 }
+.notebookInfo-yarn h4 {
+    padding-left: 1rem;
+}
 
 .notebookInfo-title .remove {
     padding-right: 1rem;

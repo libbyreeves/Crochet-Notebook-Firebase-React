@@ -5,6 +5,7 @@ import "./components/NavBar";
 import NavBar from "./components/NavBar";
 import NoteAdd from "./components/NoteAdd";
 import Notebook from "./components/Notebook";
+
 import "./App.css";
 
 const firebaseConfig = {
@@ -37,7 +38,11 @@ const App = () => {
         let note = {
           id: snapshot.key,
           title: snapshot.val().title,
+          yarn: snapshot.val().yarn,
           description: snapshot.val().description,
+          hook: snapshot.val().hook,
+          weight: snapshot.val().weight
+
         };
         let notebook = noteBookData;
         notebook.push(note);
@@ -58,11 +63,15 @@ const App = () => {
     updateNotes();
   }, []);
 
+  
+
   return (
     <div className="app">
       <NavBar />
       <div className="note-section">
         <NoteAdd />
+           
+     
         <Notebook notebook={noteBookData} />
       </div>
     </div>

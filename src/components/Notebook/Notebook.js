@@ -21,6 +21,16 @@ const Notebook = (props) => {
                                         ❌
                                     </div>
                                 </div>
+                                <div className="notebookInfo-yarn">
+                                    <h4>{note.yarn}</h4>
+                                </div>
+                                <div className="notebookInfo-hook">
+                                    <h4>{note.hook}</h4>
+                                </div>
+                                <div className="notebookInfo-weight">
+                                    <h4>{note.weight}</h4>
+                                </div>
+                                
                                 <div className="notebookInfo-description">
                                     <p>{note.description}</p>
                                 </div>
