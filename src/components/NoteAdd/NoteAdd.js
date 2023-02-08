@@ -4,7 +4,7 @@ import "firebase/compat/database";
 import "./NoteAdd.css";
 
 
-
+//the functions that are going to be updated
 const NoteAdd = () => {
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
@@ -45,11 +45,12 @@ const NoteAdd = () => {
             });
         }
     };
-
+//what is going to be rendered on the page
     return (
         <>
             <div className="noteadd">
-                <h1>Add a New Note</h1>
+                <h1>Add a New Page</h1>
+                {/* section that contains the Project Title field and the code to update based on user input */}
                 <div className="form-group">
                     <input
                         type="text"
@@ -59,9 +60,8 @@ const NoteAdd = () => {
                         value={title}
                         onChange={(val) => handleTitleChange(val)}
                     />
-                </div>
-      
-      
+                </div>  
+                {/* section that contains the Amount of Yarn field and the code to update based on user input */}
                 <div className="form-group">
                     <input
                         type="text"
@@ -72,27 +72,30 @@ const NoteAdd = () => {
                         onChange={(val) => handleYarnChange(val)}
                     />
                 </div>
+                {/* section that contains the Hook Size field and the code to update based on user input */}
                 <div className="form-group">
                     <input
                         type="text"
                         className="noteadd-hook"
                         name="noteadd-hook"
-                        placeholder="Hook size"
+                        placeholder="Hook Size"
                         value={hook}
                         onChange={(val) => handleHookChange(val)}
                     />
                 </div>
+                {/* section that contains the Yarn weight field and the code to update based on user input */}
                 <div className="form-group">
                     <input
                         type="text"
                         className="noteadd-weight"
                         name="noteadd-weight"
-                        placeholder="Yarn weight"
+                        placeholder="Yarn Weight"
                         value={weight}
                         onChange={(val) => handleWeightChange(val)}
                     />
                 </div>
                 <div className="form-group">
+                    {/* section that contains the description and the code to update based on user input */}
                     <textarea
                         name="noteadd-description"
                         className="noteadd-description"
@@ -102,7 +105,7 @@ const NoteAdd = () => {
                     ></textarea>
                 </div>
                 <div className="noteadd-button">
-                    <button onClick={() => addNote ()}>Add a Note</button>
+                    <button onClick={() => addNote ()}>Add a Page</button>
                 </div>
             </div>
         </>

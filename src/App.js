@@ -7,6 +7,7 @@ import NoteAdd from "./components/NoteAdd";
 import Notebook from "./components/Notebook";
 import "./App.css";
 
+//connection to firebase
 
 const firebaseConfig = {
 
@@ -26,7 +27,7 @@ appId: "1:855179883086:web:b289320d2bd4d11173491f"
 firebase.initializeApp(firebaseConfig);
 //
 
-//site components
+//function for updating the notebook to firebase
 const App = () => {
   const [noteBookData, setNoteBookData] = useState([]);
 
@@ -63,7 +64,7 @@ const App = () => {
     updateNotes();
   }, []);
 
-  
+  //what is rendered on the page
 
   return (
     <div className="app">

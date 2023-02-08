@@ -40,14 +40,14 @@
   }
 }
 
+/* media queries live here */
+
 @media (max-width: 816px) {
   .navBar .title {
       font-size: 4.5rem;
       text-align: center;
       }
-  .notebookInfo {
-    max-width: 200px;
-  }
+  
 }
 
 @media (max-width: 600px) {
