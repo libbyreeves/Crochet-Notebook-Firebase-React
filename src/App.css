@@ -39,3 +39,71 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 816px) {
+  .navBar .title {
+      font-size: 4.5rem;
+      text-align: center;
+      }
+  .notebookInfo {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navBar .title {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+
+  .noteadd h1 {
+      font-size: 1.3rem;
+      max-width: max-content;
+    }
+
+  .noteadd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+}
+
+@media (max-width: 340px) {
+
+  .navBar .title {
+    font-size: 3.0rem;
+    text-align: center; 
+    
+  }
+  
+  .noteadd h1 {
+    font-size: 1.5rem;
+    max-width: max-content;
+  }
+  
+  .noteadd {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .form-group {
+    display: flex;
+    max-width: fit-content;
+    justify-content: center;
+  }
+
+  .notebook {
+      grid-template-columns: repeat(1, 1fr);
+
+    }
+  .notebookInfo {
+    max-width: 200px;
+    overflow-wrap: break-word;
+    
+  }
+}
