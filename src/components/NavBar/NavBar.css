@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 20vh;
+    background-color: #c5e0f3;
+    padding-bottom: 20px;
+    
+
+}
+
+.navBar .title {
+    color: #005b96;
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: 'Rouge Script', sans-serif;
+
+}

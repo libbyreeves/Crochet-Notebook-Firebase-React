@@ -1,0 +1,143 @@
+.noteadd {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    background-color: #b3cde0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.noteadd h1 {
+    display: flex;
+    background: rgba(255, 255, 255, 0.15);
+    justify-content: center;
+    align-items: center;
+    color: #03396c;
+    font-family: "Poppins";
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+input {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        max-width: 400px;
+        height: 10px;
+        margin: 0 auto;
+        border-radius: 5px;
+        padding: 1rem;
+        background: white;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    border-style: none;
+    background: transparent;
+    outline: none;
+}
+
+.noteadd-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 1rem;
+    background: white;
+}
+
+.noteadd-header input {
+    flex-grow: 1;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    vertical-align: middle;
+}
+
+.noteadd-yarn input {
+    flex-grow: 1;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    vertical-align: middle;
+}
+
+.noteadd-description {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 1rem;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.noteadd-header textarea {
+    flex-grow: 1;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    vertical-align: middle;
+}
+
+.noteadd .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.noteadd-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #03396c;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #005b96;
+}
+
+button:focus {
+    background-color: #fd5252e5;
+}
+
+button:active {
+    background-color: #fd5252e5;
+    box-shadow: 0 5px rgb(212, 93, 93);
+    transform: translateY(4px);
+}
+
+textarea:hover {
+    border-color: #f4f6f9;
+}
+
+textarea:focus {
+    background-color: #f4f6f9;
+}
+
