@@ -70,3 +70,11 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+.remove:hover {
+    background-color: white;
+}
+
+.remove:focus {
+    background-color: white;
+}

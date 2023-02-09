@@ -59,6 +59,7 @@ const NoteAdd = () => {
                         placeholder="Project Title"
                         value={title}
                         onChange={(val) => handleTitleChange(val)}
+                        aria-label="Project Title"
                     />
                 </div>  
                 {/* section that contains the Amount of Yarn field and the code to update based on user input */}
@@ -70,6 +71,7 @@ const NoteAdd = () => {
                         placeholder="Amount of Yarn"
                         value={yarn}
                         onChange={(val) => handleYarnChange(val)}
+                        aria-label="Amount of Yarn"
                     />
                 </div>
                 {/* section that contains the Hook Size field and the code to update based on user input */}
@@ -81,6 +83,7 @@ const NoteAdd = () => {
                         placeholder="Hook Size"
                         value={hook}
                         onChange={(val) => handleHookChange(val)}
+                        aria-label="size of crochet hook"
                     />
                 </div>
                 {/* section that contains the Yarn weight field and the code to update based on user input */}
@@ -92,6 +95,7 @@ const NoteAdd = () => {
                         placeholder="Yarn Weight"
                         value={weight}
                         onChange={(val) => handleWeightChange(val)}
+                        aria-label="yarn weight, ie) worsted weight"
                     />
                 </div>
                 <div className="form-group">
@@ -102,10 +106,11 @@ const NoteAdd = () => {
                         placeholder="Note Description"
                         value={description}
                         onChange={(val) => handleDescriptionChange(val)}
+                        aria-label="area to take notes"
                     ></textarea>
                 </div>
                 <div className="noteadd-button">
-                    <button onClick={() => addNote ()}>Add a Page</button>
+                    <button aria-label="add a page to the notebook" onClick={() => addNote ()}>Add a Page</button>
                 </div>
             </div>
         </>

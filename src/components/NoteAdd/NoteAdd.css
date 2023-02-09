@@ -123,8 +123,21 @@ button:hover {
     background-color: #005b96;
 }
 
+button:focus {
+    background-color: #fd5252e5;
+}
+
 button:active {
     background-color: #fd5252e5;
     box-shadow: 0 5px rgb(212, 93, 93);
     transform: translateY(4px);
 }
+
+textarea:hover {
+    border-color: #f4f6f9;
+}
+
+textarea:focus {
+    background-color: #f4f6f9;
+}
+

@@ -17,8 +17,8 @@ const Notebook = (props) => {
                             <div className="notebookInfo" key={note.id}>
                                 <div className="notebookInfo-title">
                                     <h3>{note.title}</h3>
-                                    <div className="remove" onClick={() => deleteNotebook(note.id)}>
-                                        ✖️
+                                    <div className="remove" onClick={() => deleteNotebook(note.id)} aria-label="click to remove page">
+                                       <span role="img" aria-label="an 'x' to close a notebook page">✖️</span>
                                     </div>
                                 </div>
                                 <div className="notebookInfo-yarn">
