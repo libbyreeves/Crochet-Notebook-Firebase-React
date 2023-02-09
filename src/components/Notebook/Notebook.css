@@ -78,3 +78,9 @@
 .remove:focus {
     background-color: white;
 }
+
+textarea:focus {
+    outline: none !important;
+    border-color: #005b96;
+    box-shadow: 0 0 10px #005b96;
+}
