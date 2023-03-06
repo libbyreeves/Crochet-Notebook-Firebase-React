@@ -1,6 +1,5 @@
 .totalForm {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -31,6 +30,7 @@ input {
     display: flex;
         width: 300px;
         flex-direction: row;
+        justify-content: center;
         
         height: 10px;
         margin: 0 auto;
@@ -106,7 +106,7 @@ textarea {
 }
 
 .form-group {
-    width: 200px;
+    width: 130%;
 }
 
 .noteadd-button {
