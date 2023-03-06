@@ -109,6 +109,7 @@
     display: flex;
     max-width: fit-content;
     justify-content: center;
+    width: 220px;
   }
 
   .notebookInfo {

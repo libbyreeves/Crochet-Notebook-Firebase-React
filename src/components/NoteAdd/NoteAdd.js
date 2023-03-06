@@ -48,9 +48,9 @@ const NoteAdd = () => {
 //what is going to be rendered on the page
     return (
         <>
-            <div class="totalForm">
             <div className="noteadd">
                 <h1>Add a New Page</h1>
+            <div class="totalForm">
                 {/* section that contains the Project Title field and the code to update based on user input */}
                 <div className="form-group">
                     <input
