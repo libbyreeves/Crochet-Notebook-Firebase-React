@@ -48,6 +48,7 @@ const NoteAdd = () => {
 //what is going to be rendered on the page
     return (
         <>
+            <div class="totalForm">
             <div className="noteadd">
                 <h1>Add a New Page</h1>
                 {/* section that contains the Project Title field and the code to update based on user input */}
@@ -112,6 +113,7 @@ const NoteAdd = () => {
                 <div className="noteadd-button">
                     <button aria-label="add a page to the notebook" onClick={() => addNote ()}>Add a Page</button>
                 </div>
+            </div>
             </div>
         </>
     );

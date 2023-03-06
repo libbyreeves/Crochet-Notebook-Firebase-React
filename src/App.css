@@ -59,11 +59,11 @@
   
     .noteadd h1 {
       font-size: 1.5rem;
-      max-width: max-content;
+      width: 100%;
+      
     }
   
     .noteadd {
-      max-width: 300px;
       display: flex;
       flex-direction: column;
       align-items: center;

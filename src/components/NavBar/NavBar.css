@@ -8,8 +8,13 @@
     height: 20vh;
     background-color: #c5e0f3;
     padding-bottom: 20px;
+    margin-bottom: 0;
     
 
+}
+
+header .navBar {
+    margin-bottom: none;
 }
 
 .navBar .title {

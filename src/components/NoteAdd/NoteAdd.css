@@ -1,17 +1,22 @@
+.totalForm {
+    display: flex;
+    justify-content: center;
+}
+
 .noteadd {
     display: block;
     width: 100%;
-    max-width: 500px;
-    margin: 10px auto;
+    /* max-width: 500px; */
+    /* margin: 10px auto; */
     background-color: #b3cde0;
     padding-bottom: 20px;
-    margin-bottom: 20px;
+
     
 }
 
 .noteadd h1 {
     display: flex;
-    background: rgba(255, 255, 255, 0.15);
+    background: white;
     justify-content: center;
     align-items: center;
     color: #03396c;
@@ -19,14 +24,11 @@
     margin-bottom: 10px;
     padding-top: 10px;
 }
-
 input {
     display: flex;
-        justify-content: center;
-        align-items: center;
+        
         flex-direction: row;
-        width: 100%;
-        max-width: 400px;
+        
         height: 10px;
         margin: 0 auto;
         border-radius: 5px;
@@ -46,8 +48,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 100%;
-    max-width: 400px;
+    
     height: 10px;
     margin: 0 auto;
     border-radius: 5px;
@@ -75,8 +76,6 @@ textarea {
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    max-width: 400px;
     height: 40px;
     margin: 0 auto;
     border-radius: 5px;
@@ -141,3 +140,8 @@ textarea:focus {
     background-color: #f4f6f9;
 }
 
+@media (max-width: 480px) {
+    .noteadd {
+        justify-content: center;
+    }
+}

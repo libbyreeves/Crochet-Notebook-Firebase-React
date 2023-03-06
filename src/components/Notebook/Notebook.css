@@ -1,3 +1,7 @@
+h1 {
+    margin-top: 0;
+}
+
 .notebook {
     display: grid;
     display: flex;
@@ -6,6 +10,7 @@
     grid-gap: 20px;
     padding: 20px;
     background-color: #b3cde0;
+    
 }
 
 .notebook .notebookInfo {
@@ -37,7 +42,7 @@
     padding-left: 1rem;
 }
 .notebookInfo-yarn h4 {
-    padding-left: 1rem;
+    
 }
 
 .notebookInfo-title .remove {
